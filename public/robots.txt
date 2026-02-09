@@ -10,8 +10,8 @@ Disallow: /debug_log.txt
 Disallow: /test_email.php
 Disallow: /PHPMailer/
 
-# Sitemap (update with your actual domain)
-Sitemap: https://www.visibocapital.com/sitemap.xml
+# Sitemap
+Sitemap: https://visibocapital.com/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1
