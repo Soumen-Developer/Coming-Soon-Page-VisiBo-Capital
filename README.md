@@ -6,7 +6,7 @@
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?style=for-the-badge&logo=vite)
-![PageSpeed](https://img.shields.io/badge/PageSpeed-86%2F100-4CAF50?style=for-the-badge)
+![PageSpeed](https://img.shields.io/badge/PageSpeed-99%2F100-4CAF50?style=for-the-badge)
 
 **A stunning, animated coming soon page for Visibo Capital - an investment advisory platform.**
 
@@ -46,14 +46,58 @@
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| **Frontend** | React 18, TypeScript, Vite |
-| **Styling** | CSS3, Framer Motion |
-| **Backend** | PHP (PHPMailer) |
-| **Email** | Gmail SMTP |
-| **Database** | Google Sheets (via Apps Script) |
-| **Hosting** | Hostinger |
+### Frontend
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **React** | 18.x | UI library with hooks & functional components |
+| **TypeScript** | 5.0 | Type-safe JavaScript |
+| **Vite** | 7.3 | Next-gen build tool & dev server |
+| **Framer Motion** | 11.x | Production-ready animations |
+| **CSS3** | - | Custom styling with Flexbox & Grid |
+
+### Backend & APIs
+| Technology | Purpose |
+|------------|---------|
+| **PHP** | Server-side form processing |
+| **PHPMailer** | SMTP email library |
+| **Gmail SMTP** | Email delivery service |
+| **Google Apps Script** | Serverless data storage API |
+| **Google Sheets** | Lead database |
+| **cURL** | HTTP requests to external APIs |
+
+### Fonts & Typography
+| Font | Source | Usage |
+|------|--------|-------|
+| **Cinzel** | Google Fonts | Headings & branding |
+| **Urbanist** | Google Fonts | Body text & UI |
+
+### Server & Hosting
+| Technology | Purpose |
+|------------|---------|
+| **Apache** | Web server (Hostinger) |
+| **mod_rewrite** | SPA routing & redirects |
+| **mod_deflate** | GZIP compression |
+| **mod_expires** | Browser caching |
+| **mod_headers** | Security headers |
+
+### Development Tools
+| Tool | Purpose |
+|------|---------|
+| **ESLint** | Code linting |
+| **npm** | Package manager |
+| **Git** | Version control |
+| **VS Code** | IDE |
+
+### Security & SEO
+| Feature | Implementation |
+|---------|----------------|
+| **HTTPS Redirect** | .htaccess (Apache) |
+| **XSS Protection** | X-XSS-Protection header |
+| **Clickjacking Protection** | X-Frame-Options header |
+| **Content Sniffing Prevention** | X-Content-Type-Options |
+| **robots.txt** | Crawl directives |
+| **GZIP Compression** | mod_deflate |
+| **Browser Caching** | mod_expires |
 
 ---
 
