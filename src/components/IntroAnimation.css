@@ -1,0 +1,83 @@
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: var(--color-bg-dark-1);
+    transition: background-color 1s ease;
+    padding-bottom: 60px;
+    /* Shift logo up for better visual centering */
+}
+
+/* When in header mode, shrink container to just the header area */
+.intro-container.header-mode {
+    height: auto;
+    align-items: flex-start;
+    padding: 20px 0;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.intro-logo {
+    height: 80px;
+    width: auto;
+}
+
+.intro-text {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.brand-name {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(2.8rem, 6vw, 2.8rem);
+    line-height: 1;
+    color: #fff;
+    letter-spacing: 0.15em;
+    margin: 0;
+    padding-left: 15px;
+    border-left: 2px solid var(--color-teal-4);
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    /* Space between VISIBO and CAPITAL */
+    height: 80px;
+    white-space: nowrap;
+}
+
+.brand-name .capital {
+    color: #fff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .intro-container.header-mode {
+        padding: 15px 0;
+    }
+
+    .logo-wrapper {
+        gap: 12px;
+    }
+
+    .intro-logo {
+        height: 50px;
+    }
+
+    .brand-name {
+        font-size: 2rem;
+        padding-left: 10px;
+        height: 50px;
+        /* Match mobile logo height */
+    }
+}

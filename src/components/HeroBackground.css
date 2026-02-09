@@ -1,0 +1,69 @@
+.hero-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    overflow: hidden;
+    background-color: var(--color-bg-dark-1);
+}
+
+.hero-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    /* Smoother, longer crossfade with ease-in-out for natural feel */
+    transition: opacity 4s ease-in-out;
+    /* Add subtle scale animation for depth */
+    transform: scale(1);
+    will-change: opacity, transform;
+}
+
+.hero-frame.active {
+    opacity: 1;
+    /* Slight zoom effect during active state */
+    animation: subtleZoom 8s ease-in-out infinite alternate;
+}
+
+/* Subtle breathing/zoom animation for active frame */
+@keyframes subtleZoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Smoother gradient overlay with animated opacity */
+    background: radial-gradient(ellipse 120% 80% at 50% 50%,
+            rgba(15, 57, 73, 0.1) 0%,
+            rgba(15, 57, 73, 0.4) 50%,
+            rgba(15, 57, 73, 0.7) 100%);
+    z-index: 1;
+    /* Add subtle movement to overlay */
+    animation: overlayPulse 10s ease-in-out infinite alternate;
+}
+
+@keyframes overlayPulse {
+    0% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
