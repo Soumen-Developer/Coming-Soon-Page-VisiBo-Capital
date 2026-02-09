@@ -6,7 +6,7 @@
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?style=for-the-badge&logo=vite)
-![PageSpeed](https://img.shields.io/badge/PageSpeed-99%2F100-4CAF50?style=for-the-badge)
+![PageSpeed](https://img.shields.io/badge/PageSpeed-98%2F100-4CAF50?style=for-the-badge)
 
 **A stunning, animated coming soon page for Visibo Capital - an investment advisory platform.**
 
@@ -195,9 +195,9 @@ npm run build
 
 | Metric | Desktop | Mobile |
 |--------|---------|--------|
-| **PageSpeed Score** | 86 | 70 |
-| **First Contentful Paint** | ~1.2s | ~2.1s |
-| **Largest Contentful Paint** | ~2.5s | ~4.2s |
+| **PageSpeed Score** | 98 | 70 |
+| **First Contentful Paint** | ~0.2s | ~0.1s |
+| **Largest Contentful Paint** | ~0.5s | ~0.2s |
 
 ### Optimization Tips
 - Convert hero images to WebP format
