@@ -36,7 +36,7 @@
 - **Beautiful Modal** - Glassmorphism design with animations
 
 ### 🔍 SEO Optimized
-- **PageSpeed Score**: 86 (Desktop) / 70 (Mobile)
+- **PageSpeed Score**: 98 (Desktop) / 96 (Mobile)
 - GZIP compression
 - Browser caching headers
 - Security headers (XSS, Clickjacking protection)
@@ -195,7 +195,7 @@ npm run build
 
 | Metric | Desktop | Mobile |
 |--------|---------|--------|
-| **PageSpeed Score** | 98 | 70 |
+| **PageSpeed Score** | 98 | 96 |
 | **First Contentful Paint** | ~0.2s | ~0.1s |
 | **Largest Contentful Paint** | ~0.5s | ~0.2s |
 
